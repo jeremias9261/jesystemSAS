@@ -1,0 +1,53 @@
+═══════════════════════════════════════════════════════════════
+  📱 COMO ACESSAR O APP NO CELULAR - GUIA RÁPIDO
+═══════════════════════════════════════════════════════════════
+
+✅ SOLUÇÃO MAIS FÁCIL:
+
+1. Execute este comando:
+   
+   python iniciar_app.py
+
+2. O script vai mostrar o IP automaticamente, tipo:
+   
+   📱 Para acessar no celular, use:
+      http://192.168.0.107:8550
+
+3. No celular:
+   - Abra o navegador (Chrome, Safari, etc.)
+   - Digite o endereço que apareceu (ex: http://192.168.0.107:8550)
+   - Pronto! O app vai abrir!
+
+═══════════════════════════════════════════════════════════════
+
+⚠️ IMPORTANTE:
+
+✓ Celular e computador DEVEM estar na MESMA rede Wi-Fi
+✓ Se não funcionar, verifique o firewall do Windows
+✓ O IP pode mudar quando você reconecta no Wi-Fi
+
+═══════════════════════════════════════════════════════════════
+
+🔧 SE NÃO FUNCIONAR:
+
+1. Descubra o IP do computador:
+   
+   No PowerShell, digite: ipconfig
+   Procure por "IPv4" na seção Wi-Fi
+
+2. Permita no Firewall:
+   - Abra "Firewall do Windows Defender"
+   - Clique em "Permitir um aplicativo"
+   - Adicione Python ou permita porta 8550
+
+3. Teste no próprio computador primeiro:
+   - Abra navegador no PC
+   - Digite: http://localhost:8550
+   - Se funcionar aqui, o problema é de rede
+
+═══════════════════════════════════════════════════════════════
+
+💡 DICA: Adicione à tela inicial do celular para parecer um app!
+
+═══════════════════════════════════════════════════════════════
+

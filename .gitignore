@@ -1,0 +1,11 @@
+# Ignorar bancos de dados (eles serão criados pelo código)
+*.db
+*.sqlite3
+
+# Ignorar pastas de ambiente virtual e cache
+__pycache__/
+venv/
+.env
+.flet/
+build/
+dist/
