@@ -1166,7 +1166,9 @@ def main(page: ft.Page):
 
     mostrar_inicio()
 
+
+
 if __name__ == "__main__":
-    # Configuração para permitir acesso via rede (celular)
-    # Use: python iniciar_app.py para ver o IP automaticamente
-    ft.app(target=main, port=8550)
+    # Configuração para rodar na Nuvem (Render/Railway) ou Local
+    port = int(os.environ.get("PORT", 8550))
+    ft.app(target=main, view=ft.WEB_BROWSER, port=port, host="0.0.0.0")
