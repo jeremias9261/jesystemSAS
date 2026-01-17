@@ -1,11 +1,29 @@
-# Ignorar bancos de dados (eles serão criados pelo código)
+# Bancos de dados SQLite
 *.db
-*.sqlite3
+*.db-journal
 
-# Ignorar pastas de ambiente virtual e cache
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
 venv/
-.env
-.flet/
+ENV/
 build/
 dist/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

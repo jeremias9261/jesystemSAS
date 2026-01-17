@@ -103,3 +103,4 @@ Os bancos de dados SQLite são criados localmente no computador onde o app roda.
 
 **Pronto! Agora você pode testar no celular! 🎉**
 
+

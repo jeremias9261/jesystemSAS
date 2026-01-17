@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: jesystem-sas
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: PORT
+        value: 8080
+    plan: free
+
